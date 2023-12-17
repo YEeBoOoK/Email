@@ -1,0 +1,42 @@
+.customize__container {
+    display: flex;
+
+    padding: 16px;
+
+    @include mediaMobile {
+        flex-direction: column;
+    }
+}
+
+@include mediaMobile {
+    .customize__container.reverse {
+        flex-direction: column-reverse;
+    }
+}
+
+.customize__img-container {
+    padding: 0 12px;
+
+    @include mediaMobile {
+        margin: 0 auto;
+    }
+}
+
+.customize__img {
+    max-width: 260px;
+    height: auto;
+
+    border-radius: 8px;
+}
+
+.customize__info {
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+
+    padding: 16px 12px;
+
+    @include mediaMobile {
+        text-align: center;
+    }
+}

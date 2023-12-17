@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Apercu Pro Regular';
+    src: url('./../fonts/Apercu_Pro/apercu_regular_pro.otf');
+}
+
+// Fonts
+
+$font-main: 'Noto Sans', sans-serif;
+$font-secondary: 'Noto Nastaliq Urdu', sans-serif;
+$font-rare: 'Apercu Pro Regular', sans-serif;
+
+// Colors
+
+$white: #FFFFFF;
+$black: #000000;
+$blue: #c5f8ff;
+$pink: #FFA1B8;
+$yellow: #FFE27B;
+$beige: #FFF0F0;
+
+$almost-black: #1C1E23;
+
+$gradient: linear-gradient(to bottom right, $blue, $pink, $yellow);
+
+// Media
+
+$mobile: 595px;
